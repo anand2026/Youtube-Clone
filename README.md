@@ -1,49 +1,113 @@
 # YouTube Clone
 
-This is a web application that replicates the functionality of YouTube. It allows users to watch, search, and interact with videos. The application is built using the React JavaScript library, which makes it easy to create dynamic and interactive user interfaces.
+A modern, feature-rich YouTube clone built with **React** and **Vite**. This application replicates core YouTube functionality including video browsing, searching, playback, and more - all powered by the **Invidious API** for a seamless, no-configuration experience.
 
-## Getting Started
+![YouTube Clone](https://img.shields.io/badge/React-18.2.0-blue) ![Vite](https://img.shields.io/badge/Vite-4.3.2-yellow) ![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-3.3.2-teal)
 
-To get started with the YouTube clone, you will need to have the following:
+## ✨ Features
 
-* Node.js
-* NPM
+✅ **Video Feed** - Browse trending and popular videos  
+✅ **Search** - Find videos by keywords and topics  
+✅ **Categories** - Filter by Music, Gaming, Technology, Sports, and more  
+✅ **Video Playback** - Watch videos with ReactPlayer integration  
+✅ **Related Videos** - Discover similar content  
+✅ **Comments** - View video comments and discussions  
+✅ **Responsive Design** - Works on desktop, tablet, and mobile  
+✅ **Dark Mode** - Sleek, modern YouTube-style interface
 
-Once you have Node.js and NPM installed, you can clone the repository from GitHub:
+## 🚀 Quick Start
 
+### Prerequisites
 
-git clone https://github.com/HIMANSHUIIITBHOPAL/youtube-clone.git
+- **Node.js** (v14 or higher)
+- **npm** or **yarn**
 
-Once you have cloned the repository, you can install the dependencies:
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/anand2026/Youtube-Clone.git
+   cd Youtube-Clone
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Run the development server**
+   ```bash
+   npm run dev
+   ```
+
+4. **Open your browser**
+   
+   Navigate to [http://localhost:5173](http://localhost:5173)
+
+**That's it!** 🎉 No API keys or configuration needed - the app works immediately!
+
+## 🔧 Tech Stack
+
+- **React** - UI library
+- **Vite** - Build tool & dev server
+- **React Router** - Navigation
+- **Tailwind CSS** - Styling
+- **Axios** - HTTP requests
+- **React Player** - Video playback
+- **Invidious API** - Free, no-auth YouTube data
+
+## 📁 Project Structure
 
 ```
-npm install
+youtube-clone/
+├── src/
+│   ├── Components/      # React components (Feed, VideoCard, Header, etc.)
+│   ├── context/         # Context API for state management
+│   ├── utils/           # API utilities and helpers
+│   ├── shared/          # Shared components (Loader, VideoLength)
+│   └── assets/          # Images and static assets
+├── public/              # Public assets
+└── package.json         # Dependencies
 ```
 
-To run the application, you can use the following command:
+## 🌐 API Information
 
-```
-npm run dev
-```
+This app uses the **Invidious API**, an open-source, privacy-focused YouTube frontend:
 
-The application will be running on http://localhost:5173.
+- ✅ **No API key required**
+- ✅ **Free to use**
+- ✅ **Multiple instance fallback** for reliability
+- ✅ **All YouTube features** (search, videos, comments)
 
-## Features
+The app automatically switches between multiple Invidious instances for maximum uptime.
 
-The YouTube clone currently has the following features:
+## 🛠️ Available Scripts
 
-* Users can watch videos.
-* Users can search for any category of videos.
-* Users can like/dislike videos and comments.
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build
+- `npm run lint` - Run ESLint
 
-## Future Features
+## 🤝 Contributing
 
-The YouTube clone will be expanded in the future to include the following features:
+Contributions are welcome! Here's how you can help:
 
-* User profiles
-* Video comments
-* Video ratings
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
-## Contributing
+## 📝 License
 
-If you would like to contribute to the YouTube clone, please feel free to fork the repository and submit a pull request.
+This project is open source and available for educational purposes.
+
+## 🙏 Acknowledgments
+
+- YouTube for the original design inspiration
+- Invidious project for the free API
+- React team for the amazing library
+
+---
+
+**Made with ❤️ by [Anand](https://github.com/anand2026)**
